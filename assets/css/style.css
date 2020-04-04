@@ -1,0 +1,208 @@
+/* This Costume Style css */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2d3436;
+}
+
+.navbar {
+  background-color: #3498db !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 24px;
+  color: white !important;
+}
+
+/* Nav Link */
+
+.nav-link {
+  margin-right: 20px;
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 12px !important;
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  background-color: white;
+  height: 2px;
+  margin-top: 2px;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: white !important;
+}
+.nav-link.nav-link.active::after {
+  content: "";
+  display: block;
+  background-color: white;
+  height: 2px;
+  margin-top: 2px;
+}
+
+.profilefoto {
+  width: 70px;
+  height: 70px;
+}
+
+.nameProfile {
+  font-size: 16px;
+}
+
+.the-content {
+  margin-top: 20px;
+}
+
+.onlinestat {
+  font-size: 14px;
+  color: #2ecc71;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #f1f2f6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Content Filter */
+
+.container-filter {
+  margin-left: -35px;
+}
+.container-filter li {
+  list-style-type: none;
+  float: left;
+}
+
+.link-filter {
+  margin-right: 20px;
+  color: #2d3436;
+  font-size: 14px;
+}
+
+.link-filer:hover {
+  color: #3498db;
+}
+
+.link-filter.active::after {
+  content: "";
+  display: block;
+  background-color: #3498db;
+  height: 2px;
+  margin-top: 2px;
+  width: 50px;
+  color: #3498db !important;
+  margin-right: 20px !important;
+}
+
+.link-filter:hover {
+  text-decoration: none;
+}
+
+.time-ago {
+  font-size: 12px;
+  color: #3498db;
+}
+.chat-container {
+  border-bottom: 1px solid #f1f2f6;
+  cursor: pointer;
+}
+
+.chat-container.active {
+  background-color: rgba(47, 54, 64, 0.1);
+}
+.chat-container p {
+  font-weight: 400;
+}
+.count-readchat {
+  background-color: #3498db;
+  padding: 10px;
+  height: 24px;
+  width: 24px;
+  font-size: 11px;
+  font-weight: bold;
+  color: white;
+  line-height: 3px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.room-chatbody {
+  width: 100%;
+  height: 430px;
+  padding: 10px;
+}
+
+.room-chatfooter {
+  height: 40px;
+  background-color: white;
+}
+
+.tgl-pesan {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(149, 165, 166,1.0);
+  font-weight: 400;
+}
+
+
+.chat-message{
+
+    background-color: #3498db;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.text-right{
+
+    text-align: right;
+
+}
+
+.text-left{
+
+    text-align: left;
+
+}
+
+
+/* Utlities */
+
+.line-input {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+}
+
+.time-ago {
+  font-size: 12px;
+  color: #3498db;
+}
+
+.form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+
+.downmenu-room {
+  background-color: transparent !important;
+  border: 0;
+}
+
+.downmenu-room:focus {
+  outline: none;
+}
+.downmenu-room i {
+  color: #3498db;
+}
